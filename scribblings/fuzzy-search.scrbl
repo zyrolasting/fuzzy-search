@@ -249,7 +249,7 @@ of the search scope.
 
 @racketblock[
 (require fuzzy-search/require
-         (fuzzy "legacy"    @code:comment{../legacy.rkt}
+         (fuzzy "legacy"    @code:comment{legacy.rkt}
                 "widgets")) @code:comment{utils/widgets.rkt}]
 
 
