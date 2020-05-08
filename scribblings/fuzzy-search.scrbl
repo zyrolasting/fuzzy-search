@@ -17,13 +17,13 @@ loosely based on Sublime Text's approach.
 In the context of this collection, the following terms apply:
 
 @itemlist[
-@item{@deftech{needle}: A user-defined string used as search input.}
+@item{@deftech{needle}: A user-defined string used as an input search pattern.}
 
 @item{@deftech{haystack}: A string that may contain @tech{needles}.}
 
 @item{@deftech{match}: A position in a @tech{haystack} where a @tech{needle}'s character appears.}
 
-@item{@deftech{score}: An exact integer that represents the relevance of a @tech{match}.}
+@item{@deftech{score}: A user-defined exact integer representing how “well” a @tech{needle} matches a @tech{haystack}.}
 
 @item{@deftech{scoring procedure}: A procedure that returns a @tech{score}.}
 ]
