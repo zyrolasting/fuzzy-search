@@ -16,7 +16,7 @@
        (find-files (λ (p) (and (file-exists? p)
                                (equal? (path-get-extension p)
                                        #".rkt")))
-                   (simplify-path (build-path dir 'up)))))
+                   dir)))
 
 (define-for-syntax (find-best-path needle proximate)
   (define-values (_ best-path)
