@@ -234,7 +234,7 @@ When used as a @racket[require] subform, @racket[fuzzy] expands to
 proximate directories to a given Racket module.
 
 The filesystem search entails use of @racket[find-files] starting from
-the parent directory of the module using @racket[fuzzy], or
+the directory of the module using @racket[fuzzy], or
 @racket[(current-directory)] if the source directory is unknown. Paths
 relative to the file using @racket[fuzzy] are then treated as
 @tech{haystacks} for @racket[fuzzy-search].
